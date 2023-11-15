@@ -1,0 +1,44 @@
+.header {
+    background-color: #E5E9F2;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 58px;
+}
+
+.links {
+    text-decoration: none;
+    padding: 15px;
+    color: #183554;
+}
+
+.botonModel {
+    background-color: transparent;
+    border: none;
+    width: 8%;
+    height: 5%;
+    color:#183554;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    top: 2%;
+    right: 12%;
+    cursor: pointer;
+  }
+
+  .registro {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color:#183554;
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 2%;
+    right: 1%;
+  }

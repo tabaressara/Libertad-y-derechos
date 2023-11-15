@@ -1,0 +1,116 @@
+.fondo{
+    background-color:#E5E9F2;
+  }
+  .base{
+    background-color: #183554;
+    width: 100%;
+    height: 601px;
+  }
+  
+  .imagen {
+    width: 899px;
+    height: 601px;
+    float: right;
+  }
+  
+  .texto {
+    position: absolute;
+    top: 16%;
+    left: 11%;
+    padding-bottom: 100px;
+    color: white;
+    font-size: 36px;
+    line-height: 33px;
+    width: 598px;
+    text-align: center;
+  }
+  
+  .boton {
+    background-color: #183554;
+    border: none;
+    border-radius: 5px;
+    width: 192px;
+    height: 70px;
+    position: absolute;
+    top: 74%;
+    left: 32%;
+    color: white;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+  
+  .imagen1 {
+    width: 564px;
+    height: 832px;
+    float: left;
+  }
+  
+  .baseDos{
+    background-color: white;
+    height: 832px;
+  }
+  
+  .titulo {
+    padding-top: 100px;
+    color:#183554;
+    font-size: 100px;
+  }
+  
+  .textoDos {
+    color:#183554;
+    font-size: 26px;
+  }
+  
+  .baseTres {
+    background-color: #183554;
+    width: 100%;
+    height: 825px;
+  }
+  
+  .imagen2 {
+    width: 551px;
+    height: 825px;
+    float: right;
+  }
+  
+  .tituloDos {
+    padding-top: 100px;
+    color: white;
+    font-size: 100px;
+  }
+  
+  .textoTres {
+    color: white;
+    font-size: 26px;
+  }
+  
+  .abajo{
+    position: absolute;
+    bottom: 100%;
+  }
+  
+  .botonModel {
+    background-color: transparent;
+    border: none;
+    width: 8%;
+    height: 5%;
+    color:#183554;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    top: 2%;
+    right: 10%;
+    cursor: pointer;
+  }
+
+  .botonR {
+    background-color: white;
+    border-radius: 5px;
+    width: 192px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    margin-top: 22%;
+    color: #183554;
+    font-size: 18px;
+  }

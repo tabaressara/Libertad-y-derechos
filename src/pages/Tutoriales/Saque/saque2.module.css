@@ -1,0 +1,55 @@
+/* App.module.css */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #007bff;
+  }
+  
+  .imageGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 80px;
+  }
+  
+  .imageContainer {
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .imageContainer img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .tipModal {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .tipModal p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .tipModal button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .imagenes{
+    height: 800px;
+  }
+  
+  

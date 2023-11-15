@@ -1,0 +1,39 @@
+.fondo{
+    background-color:#E5E9F2;
+    }
+
+    .base{
+    background-color: white;
+    height: 715px;
+    width: 100%;
+    }
+
+    .imagen {
+    width: 977px;
+    height: 715px;
+    float: left;
+    }
+
+    .titulo {
+    position: absolute;
+    top: 10%;
+    right: 13%;
+    padding-top: 100px;
+    color:#183554;
+    font-size: 100px;
+    padding-bottom: 100px;
+    line-height: 130px;
+    text-align: center;
+    }
+
+    .texto {
+    position: absolute;
+    top: 50%;
+    right: 8%;
+    padding-bottom: 100px;
+    color:#183554;
+    font-size: 36px;
+    text-align: center;
+    line-height: 33px;
+    width: 600px;
+    }

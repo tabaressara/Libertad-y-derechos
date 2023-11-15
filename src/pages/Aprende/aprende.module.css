@@ -1,0 +1,66 @@
+.fondo{
+    background-color:#E5E9F2;
+  }
+
+  .base{
+    background-color: #183554;
+    width: 100%;
+    height: 710px;
+  }
+  
+  .imagen {
+    width: 483px;
+    height: 710px;
+    float: right;
+  }
+  
+  .titulo {
+    position: absolute;
+    top: 20%;
+    left: 11%;
+    padding-bottom: 100px;
+    color: white;
+    font-size: 90px;
+    line-height: 60px;
+    text-align: center;
+  }
+  
+  .texto {
+    position: absolute;
+    top: 44%;
+    left: 6%;
+    padding-bottom: 100px;
+    color: white;
+    font-size: 36px;
+    line-height: 33px;
+    width: 1200px;
+    text-align: center;
+  }
+
+  .boton {
+    background-color:#183554;
+    border: none;
+    border-radius: 5px;
+    width: 192px;
+    height: 50px;
+    position: absolute;
+    top: 70%;
+    left: 32%;
+    color: white;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+
+  .login {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E5E9F2;
+    color:#183554;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 2%;
+    right: 12%;
+  }
