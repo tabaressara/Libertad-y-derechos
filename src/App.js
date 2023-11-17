@@ -16,8 +16,13 @@ import RecomendacionesL from './pages/RecomendacionesLogin/RecomendacionesL';
 
 import Saque1 from './pages/Tutoriales/Saque/saque1';
 import Saque2 from './pages/Tutoriales/Saque/saque2';
+import Saque3 from './pages/Tutoriales/Saque/saque3';
 import Control1 from './pages/Tutoriales/Control/control1';
+import Control2 from './pages/Tutoriales/Control/control2';
+import Control3 from './pages/Tutoriales/Control/control3';
 import Remate1 from './pages/Tutoriales/Remate/remate1';
+import Remate2 from './pages/Tutoriales/Remate/remate2';
+import Remate3 from './pages/Tutoriales/Remate/remate3';
 
 import Error from './pages/Error/error';
 
@@ -37,8 +42,13 @@ function App() {
         <Route exact path = '/RecomendacionesLogin' element = {<RecomendacionesL/>} />
         <Route exact path = '/Saque1' element = {<Saque1/>} />
         <Route exact path = '/Saque2' element = {<Saque2/>} />
+        <Route exact path = '/Saque3' element = {<Saque3/>} />
         <Route exact path = '/Control1' element = {<Control1/>} />
+        <Route exact path = '/Control2' element = {<Control2/>} />
+        <Route exact path = '/Control3' element = {<Control3/>} />
         <Route exact path = '/Remate1' element = {<Remate1/>} />
+        <Route exact path = '/Remate2' element = {<Remate2/>} />
+        <Route exact path = '/Remate3' element = {<Remate3/>} />
         <Route exact path = '/Error404' element = {<Error/>} />
         <Route exact path = '*' element = {<Navigate to = '/Error404' replace/>} />
       </Routes>
