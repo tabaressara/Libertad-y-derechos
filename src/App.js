@@ -13,6 +13,8 @@ import Inicio from './pages/Inicio/inicio';
 import AprendeLogin from './pages/AprendeLogin/aprendeLogin'
 import ReglamentoL from './pages/ReglamentoLogin/reglamentoLogin';
 import RecomendacionesL from './pages/RecomendacionesLogin/RecomendacionesL';
+import User from './pages/User/user'
+import PartidosL from './pages/PartidosLogin/partidosL';
 
 import Saque1 from './pages/Tutoriales/Saque/saque1';
 import Saque2 from './pages/Tutoriales/Saque/saque2';
@@ -40,6 +42,8 @@ function App() {
         <Route exact path = '/AprendeLogin' element = {<AprendeLogin/>} />
         <Route exact path = '/ReglamentoLogin' element = {<ReglamentoL/>} />
         <Route exact path = '/RecomendacionesLogin' element = {<RecomendacionesL/>} />
+        <Route exact path = '/PartidosLogin' element = {<PartidosL/>} />
+        <Route exact path = '/User' element = {<User/>} />
         <Route exact path = '/Saque1' element = {<Saque1/>} />
         <Route exact path = '/Saque2' element = {<Saque2/>} />
         <Route exact path = '/Saque3' element = {<Saque3/>} />

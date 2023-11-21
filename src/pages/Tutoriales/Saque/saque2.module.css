@@ -1,4 +1,3 @@
-/* App.module.css */
 
 .fondo{
   background-color:#E5E9F2;
@@ -23,66 +22,58 @@
 }
 
 .imagen1 {
-  width: 650px;
+  width: 580px;
   height: 450px;
   margin-left: 26px;
-  background-color: red;
 }
 
 .imagen2 {
-  width: 400px;
+  width: 380px;
   height: 550px;
   margin-left: 26px;
-  background-color: red;
 }
 
 .imagen3 {
-  width: 500px;
+  width: 480px;
   height: 330px;
   margin-left: 26px;
-  background-color: red;
 }
 
 .imagen4 {
-  width: 360px;
+  width: 350px;
   height: 450px;
   margin-left: 26px;
-  background-color: red;
 }
 
 .imagen5 {
-  width: 650px;
+  width: 580px;
   height: 350px;
   position: relative;
   bottom: 80px;
   margin-left: 26px;
-  background-color: red;
 }
 
 .imagen6 {
-  width: 400px;
+  width: 380px;
   height: 250px;
   margin-top: 20px;
   margin-left: 26px;
-  background-color: red;
 }
 
 .imagen7 {
-  width: 500px;
+  width: 480px;
   height: 467px;
   position: relative;
   bottom: 198px;
   margin-left: 26px;
-  background-color: red;
 }
 
 .imagen8 {
-  width: 360px;
+  width: 350px;
   height: 350px;
   position: relative;
   bottom: 80px;
   margin-left: 26px;
-  background-color: red;
 }
 
 .titulo {

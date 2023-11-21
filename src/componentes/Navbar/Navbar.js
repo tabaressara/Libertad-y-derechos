@@ -23,9 +23,6 @@ function Navbar() {
     <nav className={styles.header}>
       {isLoggedIn ? (
         <>
-        <button onClick={handleLogin} className={styles.button}>
-          Logout
-        </button>
         <Link to="/Inicio" className={styles.links}>
           <img 
               src='Logo.png'  
@@ -41,6 +38,15 @@ function Navbar() {
         <Link to="/RecomendacionesLogin" className={styles.links}>
             Recomendaciones
         </Link>
+        <Link to="/PartidosLogin" className={styles.links}>
+            Partidos
+        </Link>
+        <Link to="/User" className={styles.links}>
+            User
+        </Link>
+        <button onClick={handleLogin} className={styles.registro}>
+          Cerrar sesión
+        </button>
       </>
       ) : (
         <>

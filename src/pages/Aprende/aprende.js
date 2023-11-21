@@ -1,11 +1,9 @@
 
 import styles from "./aprende.module.css"
-import { useDispatch } from 'react-redux';
 import AppModal from '../../componentes/LoginModal/Login';
 import Rmodal from '../../componentes/RegisterModal/register';
 
 function Aprende() {
-    const dispatch = useDispatch();
     return (
         <div className = {styles.fondo}>
             <AppModal/>

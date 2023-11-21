@@ -1,10 +1,8 @@
 import styles from "./recomendaciones.module.css";
-import { useDispatch } from 'react-redux';
 import AppModal from '../../componentes/LoginModal/Login';
 import Rmodal from '../../componentes/RegisterModal/register';
 
 function Recomendaciones() {
-    const dispatch = useDispatch();
     return (
         <div className = {styles.fondo}>
             <AppModal/>

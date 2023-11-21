@@ -1,5 +1,6 @@
 import styles from './aprendeLogin.module.css'
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 const AprendeLogin = () => {
     
@@ -16,19 +17,28 @@ const AprendeLogin = () => {
             <h2 className = {styles.nombre}>Saque</h2>
             <div className = {styles.caja}>
                 <Link to="/Saque1">
-                <div className = {styles.cajitas}>
-                    <img src="imagen9.jpg" className = {styles.imagen2} alt="Imagen" />
-                </div>
+                    <motion.div
+                        whileHover={{ scale: 1.1, boxShadow: '0px 0px 15px 3px rgba(255,255,255,0.5)' }}
+                        className={styles.cajitas}
+                    >
+                        <img src="imagen9.jpg" className = {styles.imagen2} alt="Imagen" />
+                    </motion.div>
                 </Link>
                 <Link to="/Saque2">
-                <div className = {styles.cajitas}>
-                    <img src="imagen10.jpg" className = {styles.imagen2} alt="Imagen" />
-                </div>
+                    <motion.div
+                        whileHover={{ scale: 1.1, boxShadow: '0px 0px 15px 3px rgba(255,255,255,0.5)' }}
+                        className={styles.cajitas}
+                    >
+                        <img src="imagen10.jpg" className = {styles.imagen2} alt="Imagen" />
+                    </motion.div>
                 </Link>
                 <Link to="/Saque3">
-                <div className = {styles.cajitas}>
-                    <img src="imagen11.jpg" className = {styles.imagen2} alt="Imagen" />
-                </div>
+                    <motion.div
+                        whileHover={{ scale: 1.1, boxShadow: '0px 0px 15px 3px rgba(255,255,255,0.5)' }}
+                        className={styles.cajitas}
+                    >
+                        <img src="imagen11.jpg" className = {styles.imagen2} alt="Imagen" />
+                    </motion.div>
                 </Link>
             </div>
         </div>
@@ -36,19 +46,28 @@ const AprendeLogin = () => {
             <h2 className = {styles.nombre}>Control</h2>
             <div className = {styles.caja}>
                 <Link to="/Control1">
-                <div className = {styles.cajitas}>
-                    <img src="imagen12.jpg" className = {styles.imagen2} alt="Imagen" />
-                </div>
+                    <motion.div
+                        whileHover={{ scale: 1.1, boxShadow: '0px 0px 15px 3px rgba(255,255,255,0.5)' }}
+                        className={styles.cajitas}
+                    >
+                        <img src="imagen12.jpg" className = {styles.imagen2} alt="Imagen" />
+                    </motion.div>
                 </Link>
                 <Link to="/Control2">
-                <div className = {styles.cajitas}>
-                    <img src="imagen13.jpg" className = {styles.imagen2} alt="Imagen" />
-                </div>
+                    <motion.div
+                        whileHover={{ scale: 1.1, boxShadow: '0px 0px 15px 3px rgba(255,255,255,0.5)' }}
+                        className={styles.cajitas}
+                    >
+                        <img src="imagen13.jpg" className = {styles.imagen2} alt="Imagen" />
+                    </motion.div>
                 </Link>
                 <Link to="/Control3">
-                <div className = {styles.cajitas}>
-                    <img src="imagen14.jpg" className = {styles.imagen2} alt="Imagen" />
-                </div>
+                    <motion.div
+                        whileHover={{ scale: 1.1, boxShadow: '0px 0px 15px 3px rgba(255,255,255,0.5)' }}
+                        className={styles.cajitas}
+                    >
+                        <img src="imagen14.jpg" className = {styles.imagen2} alt="Imagen" />
+                    </motion.div>
                 </Link>
             </div>
         </div>
@@ -56,19 +75,28 @@ const AprendeLogin = () => {
             <h2 className = {styles.nombre}>Remate</h2>
             <div className = {styles.caja}>
                 <Link to="/Remate1">
-                <div className = {styles.cajitas}>
-                    <img src="imagen15.jpg" className = {styles.imagen2} alt="Imagen" />
-                </div>
+                    <motion.div
+                        whileHover={{ scale: 1.1, boxShadow: '0px 0px 15px 3px rgba(255,255,255,0.5)' }}
+                        className={styles.cajitas}
+                    >
+                        <img src="imagen15.jpg" className = {styles.imagen2} alt="Imagen" />
+                    </motion.div>
                 </Link>
                 <Link to="/Remate2">
-                <div className = {styles.cajitas}>
-                    <img src="imagen16.jpg" className = {styles.imagen2} alt="Imagen" />
-                </div>
+                    <motion.div
+                        whileHover={{ scale: 1.1, boxShadow: '0px 0px 15px 3px rgba(255,255,255,0.5)' }}
+                        className={styles.cajitas}
+                    >
+                        <img src="imagen16.jpg" className = {styles.imagen2} alt="Imagen" />
+                    </motion.div>
                 </Link>
                 <Link to="/Remate3">
-                <div className = {styles.cajitas}>
-                    <img src="imagen17.jpg" className = {styles.imagen2} alt="Imagen" />
-                </div>
+                    <motion.div
+                        whileHover={{ scale: 1.1, boxShadow: '0px 0px 15px 3px rgba(255,255,255,0.5)' }}
+                        className={styles.cajitas}
+                    >
+                        <img src="imagen17.jpg" className = {styles.imagen2} alt="Imagen" />
+                    </motion.div>
                 </Link>
             </div>
         </div>

@@ -1,0 +1,32 @@
+.grafico {
+    width: 800px; 
+    height: 700px; 
+    margin-left: 80px;
+    margin-top: 120px;
+  }
+
+  .base {
+    display: flex;
+  }
+
+  .fondo {
+    background-color: white;
+    height: 700px;
+    width: 50%;
+  }
+
+  .fondo2 {
+    background-color: #183554;
+    height: 700px;
+    width: 50%;
+  }
+
+  .texto {
+    color: white;
+    font-size: 30px;
+  }
+
+  .imagen {
+    height: 360px;
+    width: 600px;
+  }

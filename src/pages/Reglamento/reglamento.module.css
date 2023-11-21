@@ -51,3 +51,51 @@
     font-size: 18px;
     text-decoration: underline;
     }
+
+    .base2{
+        background-color: #183554;
+        width: 100%;
+        height: 1300px;
+      }
+    .titulo2 {
+        padding-top: 2%;
+        color:white;
+        font-size: 70px;
+      }
+
+      .caja {
+        background-color: white;
+        margin: 10px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #183554;
+        font-size: 20px;
+        width: 700px;
+        height: 200px;
+      }
+
+      .imagen2 {
+        height: 100px;
+        width: 100px;
+        padding-left: 10px;
+      }
+
+      .textos {
+        color: #183554;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: left;
+        padding-left: 10px;
+      }
+
+      .contenido {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .fila {
+        padding-left: 60px;
+        padding-right: 60px;
+      }
